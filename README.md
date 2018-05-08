@@ -1,4 +1,4 @@
-# S/4HANA Cloud extensions - Product ordering sample app
+# S/4HANA Cloud extensions - Product ordering sample app (SAP S/4HANA Cloud SDK)
 This sample web application showcases an extension to an SAP S/4HANA Cloud system. It lists products (from the material master) for external users and allows to order them (i.e. a sales order is created in S/4HANA Cloud).
 
 > **NOTE:** This sample app is based on and explained in detail in the [1RW set-up instructions guide](https://rapid.sap.com/bp/#/browse/scopeitems/1RW). There, you will find more details on the end to end steps of the ordering scenario example, e.g.:
@@ -20,8 +20,14 @@ Download the sample app
 ------------------
 
 ```
-git clone https://github.com/SAP/cloud-s4-sample-ext-cldsdk-archtype.git
-cd cloud-s4-sample-ext-cldsdk-archtype/extorderapp
+git clone https://github.com/SAP/cloud-s4-sample-ext.git
+cd cloud-s4-sample-ext
+git checkout extorderapp
+```
+or if you want to clone the single branch only: 
+```
+git clone -b extorderapp --single-branch git://github.com/SAP/cloud-s4-sample-ext.git
+cd cloud-s4-sample-ext
 ```
 
 
