@@ -22,7 +22,13 @@ Download the sample app
 
 ```
 git clone https://github.com/SAP/cloud-s4-sample-ext.git
-cd cloud-s4-sample-ext/intereportapp
+cd cloud-s4-sample-ext
+git checkout intreportapp
+```
+or if you want to clone the single branch only: 
+```
+git clone -b intreportapp --single-branch git://github.com/SAP/cloud-s4-sample-ext.git
+cd cloud-s4-sample-ext
 ```
 
 
