@@ -1,4 +1,4 @@
-# S/4HANA Cloud extensions - Product ordering sample app
+# S/4HANA Cloud extensions - Product ordering sample app (Spring framework)
 This sample web application showcases an extension to an SAP S/4HANA Cloud system. It lists products (from the material master) for external users and allows to order them (i.e. a sales order is created in S/4HANA Cloud).
 
 > **NOTE:** This sample app is based on and explained in detail in the [1RW set-up instructions guide](https://rapid.sap.com/bp/#/browse/scopeitems/1RW). There, you will find more details on the end to end steps of the ordering scenario example, e.g.:
@@ -21,7 +21,13 @@ Download the sample app
 
 ```
 git clone https://github.com/SAP/cloud-s4-sample-ext.git
-cd cloud-s4-sample-ext/extreportapp
+cd cloud-s4-sample-ext
+git checkout extorderapp-spring
+```
+Or if you want to clone the single branch only: 
+```
+git clone -b extorderapp-spring --single-branch git://github.com/SAP/cloud-s4-sample-ext.git
+cd cloud-s4-sample-ext
 ```
 
 
@@ -58,7 +64,7 @@ Deploy to SAP Cloud Platform
 ----------------------------
 1. Login to your SAP Cloud Platform cockpit (trial available https://cloudplatform.sap.com).
 2. Goto "Java Applications".
-3. Select the freshly built `extorderapp-0.0.1-SNAPSHOT.war` which was created by `the mvn` package command in folder `target`.
+3. Select the freshly built `extorderapp-spring-0.0.1-SNAPSHOT.war` which was created by `the mvn` package command in folder `target`.
 4. Choose `Java Web Tomcat 7` (runtime `JRE7`).
 
 
