@@ -87,9 +87,14 @@ Limitations / Disclaimer
 Note: This sample code is primarily for illustration purposes and is not intended for productive usage. It solely shows basic interaction with an S/4HANA Cloud system. Topics like authentication, error handling, transactional correctness, security, caching, tests were omitted on purpose for the sake of simplicity. For detailed information on development on the SAP Cloud Platform, please consult https://cloudplatform.sap.com/developers.html
 
 
-Known Issues
+Known Issues/Troubleshooting
 ------------
-This sample application reads data from the SAP S/4HANA Cloud backend system and hence requires appropriate data maintained via the 'Sample app for external orders' (`extorderapp`).
+1. This sample application reads data from the SAP S/4HANA Cloud backend system and hence requires appropriate data maintained via the 'Sample app for external orders' (`extorderapp`).
+
+2. If you work with your [SAP Cloud Platform Trial account](https://account.hanatrial.ondemand.com/), you must add the following 2 properties to the destination so that the connection to SAP S/4HANA Cloud works:  
+
+      proxyHost =	proxy-trial.od.sap.biz  
+      proxyPort =	8080
 
 
 How to obtain support
