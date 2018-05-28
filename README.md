@@ -97,7 +97,7 @@ Troubleshooting
     ODataException connectivity : Re-check your Destinations ErpQueryEndpoint and  	  Custom Business Object configurations.
     
     
-    4. If you work with your [SAP Cloud Platform Trial account](https://account.hanatrial.ondemand.com/), you must add the following 2 properties to the destination so that the connection to SAP S/4HANA Cloud works:  
+ 4. If you work with your [SAP Cloud Platform Trial account](https://account.hanatrial.ondemand.com/), you must add the following 2 properties to the destination so that the connection to SAP S/4HANA Cloud works:  
 
       proxyHost =	proxy-trial.od.sap.biz  
       proxyPort =	8080
