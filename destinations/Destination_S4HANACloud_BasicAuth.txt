@@ -1,0 +1,11 @@
+Description=Destination S4HANACloud Basic Authentication
+Type=HTTP
+Authentication=BasicAuthentication
+WebIDEUsage=odata_gen,odata_abap,ui5_execute_abap
+Name=S4HANACloud_BasicAuth
+WebIDEEnabled=true
+CloudConnectorVersion=2
+URL=https\://<your S4HANA Cloud tenant>.s4hana.ondemand.com
+ProxyType=Internet
+User=<INSERT_YOUR_COMM_USER>
+WebIDESystem=S4HANACloud_BasicAuth
