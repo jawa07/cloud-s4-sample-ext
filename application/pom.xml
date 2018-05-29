@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <name>S4HANA-Eventing - Application</name>
+    <description>S4HANA-Eventing - Application</description>
+
+    <artifactId>S4HANA-Eventing-application</artifactId>
+    
+    <parent>
+        <groupId>com.sap.cloud.s4hana</groupId>
+        <artifactId>S4HANA-Eventing</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <dependencies>
+        <!-- SAP S/4HANA Cloud SDK dependencies -->
+        <dependency>
+            <groupId>com.sap.cloud.s4hana.cloudplatform</groupId>
+            <artifactId>scp-cf</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.sap.cloud.s4hana</groupId>
+            <artifactId>s4hana-all</artifactId>
+        </dependency>
+
+        <!-- Spring dependencies -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-actuator</artifactId>
+        </dependency>        
+        
+        <!-- Messaging -->
+		<dependency>
+			<groupId>com.sap.cloud.servicesdk.xbem</groupId>
+			<artifactId>emjapi-api</artifactId>
+			<version>${emjapi-api.version}</version>
+		</dependency>
+	
+		<dependency>
+			<groupId>com.sap.cloud.servicesdk.xbem</groupId>
+			<artifactId>emjapi-connector-sap-cp</artifactId>
+			<version>${emjapi-api.version}</version>
+		</dependency>
+	
+		<dependency>
+			<groupId>com.sap.cloud.servicesdk.xbem</groupId>
+			<artifactId>emjapi-adapter-amqp10</artifactId>
+			<version>${emjapi-api.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-webflux</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>org.hibernate.validator</groupId>
+					<artifactId>hibernate-validator</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.springframework.boot</groupId>
+					<artifactId>spring-boot-starter-reactor-netty</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+	    
+	    <!-- API to send emails from SAP Cloud Platform using Destinations -->
+		<dependency>
+		    <groupId>javax.mail</groupId>
+		    <artifactId>javax.mail-api</artifactId>
+		</dependency>
+		
+		<!-- JavaMail API implementation -->
+		<dependency>
+		    <groupId>com.sun.mail</groupId>
+		    <artifactId>javax.mail</artifactId>
+		</dependency>
+		
+		<!-- Compose emails using templates -->
+		<dependency>
+		    <groupId>org.freemarker</groupId>
+		    <artifactId>freemarker</artifactId>
+		</dependency>
+		
+		<!-- Copy all fields between entities of different types and create DTOs -->
+		<dependency>
+		    <groupId>org.modelmapper</groupId>
+		    <artifactId>modelmapper</artifactId>
+		    <version>1.1.2</version>
+		</dependency>  
+    </dependencies>
+    
+    <build>
+        <finalName>${project.artifactId}</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>1.5.9.RELEASE</version>
+                <configuration>
+                    <attach>false</attach>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

@@ -1,0 +1,24 @@
+---
+applications:
+
+- name: Eventing
+  memory: 768M
+  host: Eventing-p123456
+  path: target/S4HANA-Eventing-application.jar
+  buildpack: sap_java_buildpack
+  env:
+    TARGET_RUNTIME: main
+    JBP_CONFIG_SAPJVM_MEMORY_SIZES: 'metaspace:96m..'
+    SAP_XBEM_BINDINGS: >
+      {"inputs": 
+       {"BusinessPartnerQueue": 
+        {"service": "eventing",
+         "address": "queue:BusinessPartnerQueue",
+         "reliable": true,
+         "maxMsgInFlight": 2000}
+       }, 
+      "outputs": {} }
+  services:
+   - destination
+   - eventing
+   - xsuaa
