@@ -1,0 +1,366 @@
+This program references the following third party open source or other free download components.
+The third party licensors of these components may provide additional license rights,
+terms and conditions and/or require certain notices as described below.
+
+Jackson-annotations (http://github.com/FasterXML/jackson)
+Licensed under The Apache Software License, Version 2.0
+
+Jackson-core (https://github.com/FasterXML/jackson-core)
+Licensed under The Apache Software License, Version 2.0
+
+jackson-databind (http://github.com/FasterXML/jackson)
+Licensed under The Apache Software License, Version 2.0
+
+Jackson-dataformat-YAML (https://github.com/FasterXML/jackson-dataformats-text)
+Licensed under The Apache Software License, Version 2.0
+
+Jackson-JAXRS-base (http://github.com/FasterXML/jackson-jaxrs-providers/jackson-jaxrs-base)
+Licensed under The Apache Software License, Version 2.0
+
+Jackson-JAXRS-JSON (http://github.com/FasterXML/jackson-jaxrs-providers/jackson-jaxrs-json-provider)
+Licensed under The Apache Software License, Version 2.0
+
+Jackson module: JAXB Annotations (https://github.com/FasterXML/jackson-modules-base)
+Licensed under The Apache Software License, Version 2.0
+
+zjsonpatch (https://github.com/flipkart-incubator/zjsonpatch/)
+Licensed under The Apache Software License, Version 2.0
+
+Handlebars (https://github.com/jknack/handlebars.java/handlebars)
+Licensed under The Apache Software License, Version 2.0
+
+WireMock (http://wiremock.org)
+Licensed under The Apache Software License, Version 2.0
+
+FindBugs-jsr305 (http://findbugs.sourceforge.net/)
+Licensed under The Apache Software License, Version 2.0
+
+Gson (https://github.com/google/gson/gson)
+Licensed under Apache 2.0
+
+Guava: Google Core Libraries for Java (https://github.com/google/guava/guava)
+Licensed under The Apache Software License, Version 2.0
+
+project ':json-path' (https://github.com/jayway/JsonPath)
+Licensed under The Apache Software License, Version 2.0
+
+json-sanitizer (https://github.com/OWASP/json-sanitizer)
+Licensed under Apache License, Version 2.0
+
+archaius-core (http://nexus.sonatype.org/oss-repository-hosting.html/archaius-core)
+Licensed under The Apache Software License, Version 2.0
+
+hystrix-core (https://github.com/Netflix/Hystrix)
+Licensed under The Apache Software License, Version 2.0
+
+API for SAP Cloud Platform (Java Web Tomcat 8) (https://hana.ondemand.com)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+S/4HANA - Connectivity (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+S/4HANA - Core (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+S/4HANA - Data Model (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+S/4HANA - Fluent Result API (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+S/4HANA - RFC Queries (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+S/4HANA - Test Utilities (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+S/4HANA - Test Utilities Resources (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - Audit Log (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - Audit Log SCP Neo (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - Caching (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - Concurrency SCP Neo (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - Connectivity (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - Connectivity SCP Neo (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - Core (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - Core SCP Neo (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - API Metering SCP Neo (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - SCP Neo (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - Security (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - Security SCP Neo (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - Servlet (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - Tenant (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - Tenant SCP Neo (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+S/4HANA - Data Model - BAPI API (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+S/4HANA - Data Model - OData API (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+S/4HANA - Data Model - OData Core (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Frameworks - Hystrix (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Frameworks - Hystrix SCP Neo (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Quality - Common (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Developer License for Cloud SDK (http://www.sap.com)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Jackson Utility for Service SDK (http://www.sap.com)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+com.sap.cloud.servicesdk.odata-v2-lib (http://www.sap.com)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+com.sap.cloud.servicesdk.odatav2-connectivity (http://www.sap.com)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Apache Commons Codec (http://commons.apache.org/proper/commons-codec/)
+Licensed under The Apache Software License, Version 2.0
+
+Apache Commons Configuration (http://commons.apache.org/configuration/)
+Licensed under The Apache Software License, Version 2.0
+
+Commons IO (http://commons.apache.org/io/)
+Licensed under The Apache Software License, Version 2.0
+
+Commons Lang (http://commons.apache.org/lang/)
+Licensed under The Apache Software License, Version 2.0
+
+Apache Commons Logging (http://commons.apache.org/proper/commons-logging/)
+Licensed under The Apache Software License, Version 2.0
+
+rxjava (https://github.com/ReactiveX/RxJava)
+Licensed under The Apache Software License, Version 2.0
+
+javax.annotation API (http://jcp.org/en/jsr/detail?id=250)
+Licensed under CDDL + GPLv2 with classpath exception
+
+JSR-250 Common Annotations for the JavaTM Platform (http://jcp.org/aboutJava/communityprocess/final/jsr250/index.html)
+Licensed under COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0
+
+Expression Language API (2.1 Maintenance Release) (no url defined)
+Licensed under Unknown license
+
+Expression Language 3.0 API (http://uel-spec.java.net)
+Licensed under CDDL + GPLv2 with classpath exception
+
+CDI APIs (http://www.seamframework.org/Weld)
+Licensed under Apache License, Version 2.0
+
+javax.inject (http://code.google.com/p/atinject/)
+Licensed under The Apache Software License, Version 2.0
+
+JavaMail API jar (http://javamail.java.net/javax.mail-api)
+Licensed under CDDL/GPLv2+CE
+
+Java Servlet API (http://servlet-spec.java.net)
+Licensed under CDDL + GPLv2 with classpath exception
+
+JavaServer Pages(TM) API (http://jsp.java.net)
+Licensed under CDDL + GPLv2 with classpath exception
+
+WebSocket server API (http://websocket-spec.java.net)
+Licensed under Dual license consisting of the CDDL v1.1 and GPL v2
+
+javax.ws.rs-api (http://jax-rs-spec.java.net)
+Licensed under CDDL 1.1
+Licensed under GPL2 w/ CPE
+
+Joda-Time (http://www.joda.org/joda-time/)
+Licensed under Apache 2
+
+JUnit (http://junit.org)
+Licensed under Eclipse Public License 1.0
+
+Byte Buddy (without dependencies) (http://bytebuddy.net/byte-buddy)
+Licensed under The Apache Software License, Version 2.0
+
+Byte Buddy Java agent (http://bytebuddy.net/byte-buddy-agent)
+Licensed under The Apache Software License, Version 2.0
+
+ASM based accessors helper used by json-smart (http://www.minidev.net/)
+Licensed under The Apache Software License, Version 2.0
+
+JSON Small and Fast Parser (http://www.minidev.net/)
+Licensed under The Apache Software License, Version 2.0
+
+JOpt Simple (http://pholser.github.io/jopt-simple)
+Licensed under The MIT License
+
+ANTLR 4 Runtime (http://www.antlr.org/antlr4-runtime)
+Licensed under The BSD License
+
+OpenCMIS Client API (https://chemistry.apache.org/java/chemistry-opencmis-client/chemistry-opencmis-client-api/)
+Licensed under Apache 2
+
+OpenCMIS Commons API (https://chemistry.apache.org/java/chemistry-opencmis-commons/chemistry-opencmis-commons-api/)
+Licensed under Apache 2
+
+Apache Commons Collections (http://commons.apache.org/proper/commons-collections/)
+Licensed under Apache License, Version 2.0
+
+Apache Commons Lang (http://commons.apache.org/proper/commons-lang/)
+Licensed under Apache License, Version 2.0
+
+Apache Commons Text (http://commons.apache.org/proper/commons-text/)
+Licensed under Apache License, Version 2.0
+
+Apache CXF Core (http://cxf.apache.org)
+Licensed under The Apache Software License, Version 2.0
+
+Apache CXF CDI Integration (http://cxf.apache.org)
+Licensed under The Apache Software License, Version 2.0
+
+Apache CXF Runtime JAX-RS Frontend (http://cxf.apache.org)
+Licensed under The Apache Software License, Version 2.0
+
+Apache CXF Runtime HTTP Transport (http://cxf.apache.org)
+Licensed under The Apache Software License, Version 2.0
+
+Apache HttpClient (http://hc.apache.org/httpcomponents-client)
+Licensed under Apache License, Version 2.0
+
+Apache HttpCore (http://hc.apache.org/httpcomponents-core-ga)
+Licensed under Apache License, Version 2.0
+
+XmlSchema Core (http://ws.apache.org/commons/xmlschema20/xmlschema-core/)
+Licensed under The Apache Software License, Version 2.0
+
+AssertJ fluent assertions (http://assertj.org/assertj-core)
+Licensed under Apache License, Version 2.0
+
+Stax2 API (http://wiki.fasterxml.com/WoodstoxStax2)
+Licensed under The BSD License
+
+Woodstox (http://woodstox.codehaus.org)
+Licensed under The Apache Software License, Version 2.0
+
+Jetty :: Continuation (http://www.eclipse.org/jetty)
+Licensed under Apache Software License - Version 2.0
+Licensed under Eclipse Public License - Version 1.0
+
+Jetty :: Http Utility (http://www.eclipse.org/jetty)
+Licensed under Apache Software License - Version 2.0
+Licensed under Eclipse Public License - Version 1.0
+
+Jetty :: IO Utility (http://www.eclipse.org/jetty)
+Licensed under Apache Software License - Version 2.0
+Licensed under Eclipse Public License - Version 1.0
+
+Jetty :: Security (http://www.eclipse.org/jetty)
+Licensed under Apache Software License - Version 2.0
+Licensed under Eclipse Public License - Version 1.0
+
+Jetty :: Server Core (http://www.eclipse.org/jetty)
+Licensed under Apache Software License - Version 2.0
+Licensed under Eclipse Public License - Version 1.0
+
+Jetty :: Servlet Handling (http://www.eclipse.org/jetty)
+Licensed under Apache Software License - Version 2.0
+Licensed under Eclipse Public License - Version 1.0
+
+Jetty :: Utility Servlets and Filters (http://www.eclipse.org/jetty)
+Licensed under Apache Software License - Version 2.0
+Licensed under Eclipse Public License - Version 1.0
+
+Jetty :: Utilities (http://www.eclipse.org/jetty)
+Licensed under Apache Software License - Version 2.0
+Licensed under Eclipse Public License - Version 1.0
+
+Jetty :: Webapp Application Support (http://www.eclipse.org/jetty)
+Licensed under Apache Software License - Version 2.0
+Licensed under Eclipse Public License - Version 1.0
+
+Jetty :: XML utilities (http://www.eclipse.org/jetty)
+Licensed under Apache Software License - Version 2.0
+Licensed under Eclipse Public License - Version 1.0
+
+javax.annotation API v.1.1 (http://glassfish.org/glassfish-parent/javaee-api/javax.annotation/)
+Licensed under CDDL + GPLv2 with classpath exception
+
+Hamcrest All (https://github.com/hamcrest/JavaHamcrest/hamcrest-all)
+Licensed under New BSD License
+
+Hamcrest Core (https://github.com/hamcrest/JavaHamcrest/hamcrest-core)
+Licensed under New BSD License
+
+HdrHistogram (http://hdrhistogram.github.io/HdrHistogram/)
+Licensed under Public Domain, per Creative Commons CC0
+
+Interceptors 1.1 API (http://jboss-interceptors-api_1.1_spec/)
+Licensed under lgpl
+
+Weld Servlet (Uber Jar) (http://weld.cdi-spec.org)
+Licensed under Apache License, Version 2.0
+
+JSON in Java (https://github.com/douglascrockford/JSON-java)
+Licensed under The JSON License
+
+jsoup Java HTML Parser (https://jsoup.org/)
+Licensed under The MIT License
+
+mockito-core (https://github.com/mockito/mockito)
+Licensed under The MIT License
+
+Objenesis (http://objenesis.org)
+Licensed under Apache 2
+
+ASM Core (http://asm.objectweb.org/asm/)
+Licensed under BSD
+
+JSONassert (https://github.com/skyscreamer/JSONassert)
+Licensed under The Apache Software License, Version 2.0
+
+SLF4J API Module (http://www.slf4j.org)
+Licensed under MIT License
+
+SLF4J Simple Binding (http://www.slf4j.org)
+Licensed under MIT License
+
+org.xmlunit:xmlunit-core (http://www.xmlunit.org/)
+Licensed under The Apache Software License, Version 2.0
+
+org.xmlunit:xmlunit-legacy (http://www.xmlunit.org/)
+Licensed under The BSD 3-Clause License
+
+SnakeYAML (http://www.snakeyaml.org)
+Licensed under Apache License, Version 2.0
+
