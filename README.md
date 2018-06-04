@@ -84,6 +84,8 @@ Access `http://localhost:8080` with your browser of choice.
 
 Limitations / Disclaimer
 ------------------------
+This application makes use of third party Google Maps API keys for showing customer addresses coming from sales orders. For testing the scenario, make sure that you have [your own API key](https://developers.google.com/maps/documentation/javascript/get-api-key).
+
 Note: This sample code is primarily for illustration purposes and is not intended for productive usage. It solely shows basic interaction with an S/4HANA Cloud system. Topics like authentication, error handling, transactional correctness, security, caching, tests were omitted on purpose for the sake of simplicity. For detailed information on development on the SAP Cloud Platform, please consult https://cloudplatform.sap.com/developers.html
 
 
