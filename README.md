@@ -77,6 +77,11 @@ Known Issues
 ------------
 This sample application reads data from the SAP S/4HANA Cloud backend system and hence requires appropriate data maintained for a sell from stock process. Further details can be found also in guide [Sell from stock BD9](https://rapid.sap.com/bp/#/browse/scopeitems/BD9).
 
+If you work with your [SAP Cloud Platform Trial account](https://account.hanatrial.ondemand.com/), you must add the following 2 properties to the destination so that the connection to SAP S/4HANA Cloud works:  
+
+      proxyHost =	proxy-trial.od.sap.biz  
+      proxyPort =	8080
+    
 
 How to obtain support
 ---------------------
