@@ -102,6 +102,7 @@ DATA : addr_info_code   TYPE string,
        lv_key           TYPE string,
        lv_value         TYPE string.
 
+REPLACE ALL OCCURRENCES OF SUBSTRING cl_abap_char_utilities=>newline IN lv_bodyresponse WITH ''.
 REPLACE ALL OCCURRENCES OF SUBSTRING '"' IN lv_bodyresponse WITH ''.
 
 SPLIT lv_bodyresponse AT ',' INTO lv_pair lv_bodyresponse.
