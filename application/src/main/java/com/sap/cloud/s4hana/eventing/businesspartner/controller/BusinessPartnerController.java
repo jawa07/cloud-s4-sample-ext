@@ -103,11 +103,10 @@ public class BusinessPartnerController {
         
         businessPartnerService.updateBusinessPartnerAddress(address);
         
-        //final CustomBusinessPartner businessPartner = businessPartnerService.getRootByKey(address.getBusinessPartner());
         CustomBusinessPartner businessPartner = CustomBusinessPartner.of(new BusinessPartner());
         
         businessPartner.setAddressConfirmationState(AddrConfState.CONFIRMED);
-        businessPartner.setAddressChecksum(HashUtils.hash(address));
+        businessPartner.setAddressChecksum(HashUtils.hash(address.toString()));
         businessPartner.setBusinessPartner(address.getBusinessPartner());
         businessPartnerService.updateBusinessPartner(businessPartner);
     }

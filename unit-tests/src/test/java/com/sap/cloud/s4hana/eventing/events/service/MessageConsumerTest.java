@@ -196,7 +196,7 @@ public class MessageConsumerTest {
         
         assertThat("Address Checksum after processing", 
                 businessPartner.getAddressChecksum(),
-                is(HashUtils.hash(AddressDTO.of(address))));
+                is(HashUtils.hash(AddressDTO.of(address).toString())));
     }
     
     /**
@@ -213,7 +213,7 @@ public class MessageConsumerTest {
         final MessageEvent eventMock = mockEventFor(businessPartner);
         
         // ... and a address Checksum on the Businesspartner, that is the same as the current address ...
-        businessPartner.setAddressChecksum(HashUtils.hash(AddressDTO.of(address)));
+        businessPartner.setAddressChecksum(HashUtils.hash(AddressDTO.of(address).toString()));
         
         // ... and Address Confirmation State is Initial
         businessPartner.setAddressConfirmationState(INITIAL);
@@ -273,7 +273,7 @@ public class MessageConsumerTest {
         doReturn(contact).when(businessPartnerServiceMock).determineResponsibleContact(businessPartner);
         
         //... and a address Checksum on the Businesspartner, that is the same as the current address
-        businessPartner.setAddressChecksum(HashUtils.hash(AddressDTO.of(address)));
+        businessPartner.setAddressChecksum(HashUtils.hash(AddressDTO.of(address).toString()));
         
         // ... and Address Confirmation State is Initial
         businessPartner.setAddressConfirmationState(INITIAL);
@@ -308,7 +308,7 @@ public class MessageConsumerTest {
         doReturn(address).when(businessPartnerServiceMock).getBupaAddress(businessPartner);
 
         //... and a address Checksum on the Businesspartner, that is the same as the current address ...
-        businessPartner.setAddressChecksum(HashUtils.hash((AddressDTO.of(address))));
+        businessPartner.setAddressChecksum(HashUtils.hash((AddressDTO.of(address).toString())));
         
         //... and address was already confirmed
         businessPartner.setAddressConfirmationState(CONFIRMED);

@@ -92,10 +92,12 @@ public class CustomBusinessPartnerService {
         try {
             businessPartnerService
                 .updateBusinessPartner(businessPartner)
+                .includingFields(CustomBusinessPartner.ADDRESS_CONFIRMATION_STATE,
+                        CustomBusinessPartner.ADDRESS_CHECKSUM)
                 .execute(erpConfigContext);
         } catch (ODataException e) {
-           throw error("There was an error while updating the Business Partner with the key: " 
-                       + businessPartner.getBusinessPartner(), e);
+           throw error("There was an error while updating the Business Partner " 
+                       + businessPartner, e);
         }
     }
     
@@ -142,11 +144,11 @@ public class CustomBusinessPartnerService {
 	 * @param Data Transfer Object {@link AddressDTO} that contains address values
 	 */
     public void updateBusinessPartnerAddress(AddressDTO addressDTO) {
-        BusinessPartnerAddress oldAddress = getAddressByKeys(addressDTO.getBusinessPartner(), addressDTO.getAddressID());
+        BusinessPartnerAddress address = new BusinessPartnerAddress();
         
-        new ModelMapper().map(addressDTO, oldAddress);
+        new ModelMapper().map(addressDTO, address);
         
-        updateBusinessPartnerAddress(oldAddress);
+        updateBusinessPartnerAddress(address);
         
     }
 

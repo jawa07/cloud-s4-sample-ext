@@ -1,11 +1,11 @@
 package com.sap.cloud.s4hana.eventing.businesspartner.model;
 
-import java.io.Serializable;
 import java.util.Calendar;
 
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 import org.apache.commons.lang3.builder.ToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringStyle;
 
 import com.sap.cloud.s4hana.eventing.core.util.MapperUtils;
 import com.sap.cloud.sdk.s4hana.datamodel.odata.namespaces.businesspartner.BusinessPartnerAddress;
@@ -19,10 +19,8 @@ import com.sap.cloud.sdk.s4hana.datamodel.odata.namespaces.businesspartner.Busin
  * confirmed by a customer.
  *
  */
-public class AddressDTO implements Serializable {
+public class AddressDTO {
 
-	private static final long serialVersionUID = 1L;
-	
 	/*
 	 * All fields from BusinessPartnerAddress that are confirmed by a customer.
 	 */
@@ -451,7 +449,7 @@ public class AddressDTO implements Serializable {
 	
 	@Override
 	public String toString() {
-		return ToStringBuilder.reflectionToString(this);
+		return ToStringBuilder.reflectionToString(this, ToStringStyle.SHORT_PREFIX_STYLE);
 	}
 	
 }

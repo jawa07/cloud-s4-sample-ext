@@ -61,16 +61,16 @@ public class MessageConsumer implements Consumer<Stream<Message<byte[]>>> {
     }
     
     public void handleEvent(MessageEvent event) {
-        log.debug("Event was Received. Full Event Message: {}", event.getMessage());
+        log.info("Event was Received. Full Event Message: {}", event.getMessage());
         try {
             // only Business Partner Events are relevant
             if (event.isBusinessPartnerEvent()) {
                 
                 // get Business Partner
                 String businessPartnerKey = event.getBusinessPartnerKey();
-                log.debug("Event for business partner with key {}" , businessPartnerKey);
                 
                 CustomBusinessPartner businessPartner = customBusinessPartnerService.getRootByKey(businessPartnerKey);
+                log.debug("Event for business partner {}" , businessPartner);
                 
                 if (StringUtils.isBlank(businessPartner.getCustomer()) || StringUtils.isNotBlank(businessPartner.getIsNaturalPerson())) {
                     log.debug("Business partner {} is no Customer or a Person. Therefore the event was dropped", businessPartner);
@@ -89,14 +89,20 @@ public class MessageConsumer implements Consumer<Stream<Message<byte[]>>> {
                 
                 // check if the address was changed
                 final String oldAddressChecksum = businessPartner.getAddressChecksum();
-                final String newAddressCheckSum = HashUtils.hash(AddressDTO.of(address));
+                final String newAddressCheckSum = HashUtils.hash(AddressDTO.of(address).toString());
                 final boolean addressNotChanged = newAddressCheckSum.equals(oldAddressChecksum);
                 
                 final AddrConfState addressConfirmationState = businessPartner.getAddressConfirmationState();
-                if (addressNotChanged && !INITIAL.equals(addressConfirmationState)) {
-                    log.debug("Address in {} state was not changed for business partner {}",
-                            addressConfirmationState.toString(),
-                            businessPartnerKey);
+                if ((addressNotChanged && !INITIAL.equals(addressConfirmationState)) || OPEN.equals(addressConfirmationState)) {
+                    if(OPEN.equals(addressConfirmationState)) {
+                        log.debug("Address in {} state and email was already send for business partner {}",
+                                    addressConfirmationState.toString(),
+                                    businessPartnerKey);
+                    } else {
+                        log.debug("Address in {} state was not changed for business partner {}",
+                                addressConfirmationState.toString(),
+                                 businessPartnerKey);    
+                    }
                     return;
                 }
                      
