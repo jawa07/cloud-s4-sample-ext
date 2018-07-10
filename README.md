@@ -7,6 +7,10 @@ This sample web application showcases an extension to an SAP S/4HANA Cloud syste
 >
 > The following README only shows a basic overview.
 
+Set-up Instructions Guide
+-------------
+https://help.sap.com/viewer/1f6856bc0f3740ab877da49563de2e63/SHIP/en-US
+
 Requirements
 -------------
 1. We assume that you have access to an SAP S/4HANA Cloud system and an SAP Cloud Platform account
