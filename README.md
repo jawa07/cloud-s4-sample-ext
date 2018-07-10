@@ -15,7 +15,9 @@ The scenario basically covers 3 separate versions, or sub-scenarios respectively
 > * Connection setup of the SAP S/4HANA Cloud system and SAP Cloud Platform (via a communication arrangement)
 > * Implementation of a UI5-based app
 
-
+Set-up Instructions Guide
+-------------
+https://help.sap.com/viewer/63aaaca3eb4a41d0958ad433df0c0290/SHIP/en-US
 
 Requirements
 -------------
