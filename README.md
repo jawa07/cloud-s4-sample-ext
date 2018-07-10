@@ -8,6 +8,9 @@ This simple Fiori UI sample application showcases an extension to an SAP S/4HANA
 > * Integration of the custom app on the S/4HANA Cloud Launchpad
 > * Transportation of the custom UI and extenstions from a quality to a productive SAP S/4HANA Cloud system
 
+Set-up Instructions Guide
+-------------
+https://help.sap.com/viewer/841f379acd104dbf8685b3ad26e66af3/SHIP/en-US
 
 Requirements
 -------------
