@@ -6,6 +6,10 @@ This sample iOS application showcases an extension to an SAP S/4HANA Cloud syste
 > *    Connection setup of the SAP S/4HANA Cloud system and SAP Cloud Mobile Services Platform (via a communication arrangement and Destination)
 > *    Adaption of the sample app
 
+Set-up Instructions Guide
+-------------
+https://help.sap.com/viewer/67547c2831ca4690b38fd5a2d8eab42f/SHIP/en-US
+
 Prerequisites
 -------------
 1. We assume that you have access to an SAP S/4HANA Cloud system, SAP iOS SDK and an SAP Cloud Platform account
