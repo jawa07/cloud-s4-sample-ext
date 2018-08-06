@@ -20,7 +20,9 @@
     <user-data-constraint>
       <transport-guarantee>NONE</transport-guarantee>
     </user-data-constraint>
-  </security-constraint>
+  </security-constraint> 
+ 
+
 <!--   <filter> -->
 <!--     <filter-name>RestCsrfPreventionFilter</filter-name> -->
 <!--     <filter-class>org.apache.catalina.filters.RestCsrfPreventionFilter</filter-class> -->

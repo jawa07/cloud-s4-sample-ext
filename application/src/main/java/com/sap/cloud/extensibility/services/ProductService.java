@@ -1,14 +1,17 @@
 package com.sap.cloud.extensibility.services;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.inject.Inject;
+
 import org.slf4j.Logger;
 
+import com.sap.cloud.extensibility.model.CustomProduct;
 import com.sap.cloud.sdk.cloudplatform.logging.CloudLoggerFactory;
+import com.sap.cloud.sdk.odatav2.connectivity.ODataException;
 import com.sap.cloud.sdk.s4hana.datamodel.odata.namespaces.productmaster.Product;
 import com.sap.cloud.sdk.s4hana.datamodel.odata.services.DefaultProductMasterService;
-import com.sap.cloud.sdk.odatav2.connectivity.ODataException;
 
 /**
  * The Class ProductService.
@@ -76,5 +79,44 @@ public class ProductService {
 		return productsList;
 
 	}
+	
+	public List<CustomProduct> findCustomerProductsByProductGroup(String productGroup) throws Exception {
+
+		List<Product> productsList = null;
+		
+		List<CustomProduct> customProductsList = new ArrayList<CustomProduct>();
+		
+		try {
+
+			logger.info("productGroup :: " + productGroup);
+
+			productsList = defaultProductMasterService.getAllProduct().filter(Product.PRODUCT_GROUP.eq(productGroup)).
+					execute();
+			
+			logger.info("productsList size::"+productsList.size());
+			
+			for(Product p: productsList ) {
+				
+				logger.info("YY1_WebSaleable_PRD"+p.getCustomField("YY1_SaleableProduct_PRD"));
+				
+				customProductsList.add(CustomProduct.of(p));
+				
+			}
+			for(CustomProduct cp: customProductsList) {
+				logger.info("cp websaleble::"+cp.getCustomWebSaleble());
+			}
+			
+			logger.info("customProductsList :: " + customProductsList);
+
+		} catch (ODataException e) {
+
+			logger.error("ODATA Exception occured in Product Service " + "while fetching the records :: ", e);
+
+			throw new Exception(e);
+		}
+		return customProductsList;
+
+	}
+
 
 }
