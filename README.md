@@ -1,4 +1,4 @@
-# S/4HANA Cloud extensions - Product ordering sample app
+# S/4HANA Cloud extensions - Product ordering sample app (SAP S/4HANA Cloud SDK)
 This sample web application showcases an extension to an SAP S/4HANA Cloud system. It lists products (from the material master) for external users and allows to order them (i.e. a sales order is created in S/4HANA Cloud).
 
 > **NOTE:** This sample app is based on and explained in detail in the [1RW set-up instructions guide](https://rapid.sap.com/bp/#/browse/scopeitems/1RW). There, you will find more details on the end to end steps of the ordering scenario example, e.g.:
@@ -24,15 +24,16 @@ git clone https://github.com/SAP/cloud-s4-sample-ext.git
 cd cloud-s4-sample-ext
 git checkout extorderapp
 ```
-or if you want to clone the single branch only:
+or if you want to clone the single branch only: 
 ```
 git clone -b extorderapp --single-branch git://github.com/SAP/cloud-s4-sample-ext.git
 cd cloud-s4-sample-ext
 ```
 
+
 Connect it to your S/4HANA Cloud system
 ---------------------------------------
-Adapt [application.properties](https://github.com/SAP/cloud-s4-sample-ext/blob/extorderapp/application/src/main/resources/application.properties) and adjust the connection parameters according to your SAP S/4HANA Cloud system.
+Adapt [[cloud-s4-sample-ext-cldsdk-archtype](https://github.wdf.sap.corp/bestpractices/cloud-s4-sample-ext-cldsdk-archtype)/[extorderapp](https://github.wdf.sap.corp/bestpractices/cloud-s4-sample-ext-cldsdk-archtype/tree/master/extorderapp)/[application](https://github.wdf.sap.corp/bestpractices/cloud-s4-sample-ext-cldsdk-archtype/tree/master/extorderapp/application)/[src](https://github.wdf.sap.corp/bestpractices/cloud-s4-sample-ext-cldsdk-archtype/tree/master/extorderapp/application/src)/[main](https://github.wdf.sap.corp/bestpractices/cloud-s4-sample-ext-cldsdk-archtype/tree/master/extorderapp/application/src/main)/[resources](https://github.wdf.sap.corp/bestpractices/cloud-s4-sample-ext-cldsdk-archtype/tree/master/extorderapp/application/src/main/resources)/**application.properties**](src/main/resources/application.properties) and adjust the connection parameters according to your SAP S/4HANA Cloud system.
 
 
 ```
@@ -69,7 +70,7 @@ Deploy to SAP Cloud Platform
 ----------------------------
 1. Login to your SAP Cloud Platform cockpit (trial available https://cloudplatform.sap.com).
 2. Goto "Java Applications".
-3. Select the freshly built `extorderapp-application.war` which was created by `the mvn` package command in folder `cloud-s4-sample-ext\extorderapp\application\target`.
+3. Select the freshly built `extorderapp-application.war` which was created by `the mvn` package command in folder `cloud-s4-sample-ext-cldsdk-archtype\extorderapp\application\target`.
 4. Choose `Java EE 6 Web Profile ` (runtime `JRE7`).
 
 
@@ -94,7 +95,8 @@ Troubleshooting
     
     **Known Exceptions:**
     ODataException connectivity : Re-check your Destinations ErpQueryEndpoint and  	  Custom Business Object configurations.
-
+    
+    
  4. If you work with your [SAP Cloud Platform Trial account](https://account.hanatrial.ondemand.com/), you must add the following 2 properties to the destination so that the connection to SAP S/4HANA Cloud works:  
 
       proxyHost =	proxy-trial.od.sap.biz  
@@ -103,7 +105,7 @@ Troubleshooting
 
 How to obtain support
 ---------------------
-File a message in the [SAP Support Launchpad](https://launchpad.support.sap.com/#/incident/create) under component `CA-GTF-FND-EXT`
+File a message in the [SAP Support Launchpad](https://launchpad.support.sap.com/#/incident/create) under component `CA-GTF-FND`
 
 
 ### Copyright and License
