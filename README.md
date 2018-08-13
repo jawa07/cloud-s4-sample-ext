@@ -6,6 +6,10 @@ This extensibility scenario showcases the Native iOS Offline Timesheet app, whic
 > *    Connection setup of the SAP S/4HANA Cloud system and SAP Cloud Mobile Services Platform (via a Communication Arrangement and Destination)
 > *    Adaption of the sample app
 
+Set-up Instructions Guide
+-------------
+https://help.sap.com/viewer/80ceaf9e74574004873d675445e0ec84/SHIP/en-US
+
 What do I need for this Scenario?
 -------------
 At one glance you need to match the following listed prerequisites for this scenario:
