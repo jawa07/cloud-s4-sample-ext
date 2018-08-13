@@ -1,6 +1,6 @@
 # S/4HANA Cloud extensions – Native iOS Offline Timesheet App
 
-This sample iOS application showcases an extension to an SAP S/4HANA Cloud system. It lists down all the products in the S/4HANA Product Master API and clicking on any product displays data about the product.
+This extensibility scenario showcases the Native iOS Offline Timesheet app, which can be referred to as an alternative – or even an addition – to the standard Manage My Timesheet SAP S/4HANA Cloud time recording app. With this alternative app, your employees can record their working times on their iOS devices. Each recorded task includes start and end times, a recording date, and a task type (predefined with some sample tasks). With the app, you can create, update, or delete working times (internet connection required). Additionally, the app leverages offline capabilities which makes it possible for employees to access their existing timesheet records on their mobiles devices even if there's no internet connection.
 
 > **NOTE:** This sample app is based on and explained in detail in the Mobile Extensibility set-up instructions guide. There, you will find more details on the end to end steps of the Reading the Product details from S/4HANA system and showing it on IOS application, e.g.:
 > *    Connection setup of the SAP S/4HANA Cloud system and SAP Cloud Mobile Services Platform (via a Communication Arrangement and Destination)
