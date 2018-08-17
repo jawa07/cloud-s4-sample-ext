@@ -1,0 +1,1039 @@
+This program references the following third party open source or other free download components.
+The third party licensors of these components may provide additional license rights,
+terms and conditions and/or require certain notices as described below.
+
+java jwt (http://www.jwt.io)
+Licensed under The MIT License (MIT)
+
+Jackson-annotations (http://github.com/FasterXML/jackson)
+Licensed under The Apache Software License, Version 2.0
+
+Jackson-core (https://github.com/FasterXML/jackson-core)
+Licensed under The Apache Software License, Version 2.0
+
+jackson-databind (http://github.com/FasterXML/jackson)
+Licensed under The Apache Software License, Version 2.0
+
+Jackson-dataformat-YAML (https://github.com/FasterXML/jackson-dataformats-text)
+Licensed under The Apache Software License, Version 2.0
+
+Jackson-JAXRS-base (http://github.com/FasterXML/jackson-jaxrs-providers/jackson-jaxrs-base)
+Licensed under The Apache Software License, Version 2.0
+
+Jackson-JAXRS-JSON (http://github.com/FasterXML/jackson-jaxrs-providers/jackson-jaxrs-json-provider)
+Licensed under The Apache Software License, Version 2.0
+
+Jackson module: JAXB Annotations (https://github.com/FasterXML/jackson-modules-base)
+Licensed under The Apache Software License, Version 2.0
+
+zjsonpatch (https://github.com/flipkart-incubator/zjsonpatch/)
+Licensed under The Apache Software License, Version 2.0
+
+VEINHORN/xelem-wrapper (http://xelem.sourceforge.net/)
+Licensed under Unknown license
+
+Handlebars (https://github.com/jknack/handlebars.java/handlebars)
+Licensed under The Apache Software License, Version 2.0
+
+WireMock (http://wiremock.org)
+Licensed under The Apache Software License, Version 2.0
+
+FindBugs-jsr305 (http://findbugs.sourceforge.net/)
+Licensed under The Apache Software License, Version 2.0
+
+Gson (https://github.com/google/gson/gson)
+Licensed under Apache 2.0
+
+error-prone annotations (http://nexus.sonatype.org/oss-repository-hosting.html/error_prone_parent/error_prone_annotations)
+Licensed under Apache 2.0
+
+Guava: Google Core Libraries for Java (https://github.com/google/guava/guava)
+Licensed under The Apache Software License, Version 2.0
+
+J2ObjC Annotations (https://github.com/google/j2objc/)
+Licensed under The Apache Software License, Version 2.0
+
+project ':json-path' (https://github.com/jayway/JsonPath)
+Licensed under The Apache Software License, Version 2.0
+
+json-sanitizer (https://github.com/OWASP/json-sanitizer)
+Licensed under Apache License, Version 2.0
+
+archaius-core (http://nexus.sonatype.org/oss-repository-hosting.html/archaius-core)
+Licensed under The Apache Software License, Version 2.0
+
+hystrix-core (https://github.com/Netflix/Hystrix)
+Licensed under The Apache Software License, Version 2.0
+
+API for SAP Cloud Platform (Java EE 7 Web Profile TomEE 7) (https://hana.ondemand.com)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+S/4HANA - Connectivity (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+S/4HANA - Core (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+S/4HANA - Fluent Result API (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+migratehistoricaldata - Backend application (Neo version) (no url defined)
+Licensed under Unknown license
+
+migratehistoricaldata - Backend application's core files (no url defined)
+Licensed under Unknown license
+
+S/4HANA - Test Utilities (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+S/4HANA - Test Utilities Resources (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - Audit Log (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - Audit Log SCP Cloud Foundry (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - Audit Log SCP Neo (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - Caching (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - Concurrency SCP Neo (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - Connectivity (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - Connectivity SCP Cloud Foundry (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - Connectivity SCP Neo (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - Core (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - Core SCP Cloud Foundry (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - Core SCP Neo (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - API Metering (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - API Metering SCP Neo (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - SCP Cloud Foundry (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - SCP Neo (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - Security (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - Security SCP Cloud Foundry (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - Security SCP Neo (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - Servlet (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - Tenant (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - Tenant SCP Cloud Foundry (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - Tenant SCP Neo (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Frameworks - Hystrix (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Frameworks - Hystrix SCP Neo (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Quality - Common (https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Oracle's implementation of the JSF 2.2 specification API. (http://java.sun.com/javaee/javaserverfaces/)
+Licensed under COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) plus GPL
+
+istack common utility code runtime (http://java.net/istack-commons/istack-commons-runtime/)
+Licensed under CDDL 1.1
+Licensed under GPL2 w/ CPE
+
+JAXB CORE (http://jaxb.java.net/)
+Licensed under CDDL 1.1
+Licensed under GPL2 w/ CPE
+
+Old JAXB Core (http://jaxb.java.net/jaxb-bundles/jaxb-core)
+Licensed under CDDL+GPL License
+
+JAXB Reference Implementation (http://jaxb.java.net/)
+Licensed under CDDL 1.1
+Licensed under GPL2 w/ CPE
+
+Old JAXB Runtime (http://jaxb.java.net/jaxb-bundles/jaxb-impl)
+Licensed under CDDL+GPL License
+
+fastinfoset (http://fi.java.net)
+Licensed under Apache License, Version 2.0
+
+saaj-impl (http://java.net/saaj-impl/)
+Licensed under Dual license consisting of the CDDL v1.1 and GPL v2
+
+Commons BeanUtils (http://commons.apache.org/beanutils/)
+Licensed under The Apache Software License, Version 2.0
+
+Commons BeanUtils Core (http://commons.apache.org/beanutils/)
+Licensed under The Apache Software License, Version 2.0
+
+Commons CLI (http://commons.apache.org/cli/)
+Licensed under The Apache Software License, Version 2.0
+
+Apache Commons Codec (http://commons.apache.org/proper/commons-codec/)
+Licensed under Apache License, Version 2.0
+
+Apache Commons Codec (http://commons.apache.org/proper/commons-codec/)
+Licensed under The Apache Software License, Version 2.0
+
+Apache Commons Collections (http://commons.apache.org/collections/)
+Licensed under Apache License, Version 2.0
+
+Apache Commons Configuration (http://commons.apache.org/configuration/)
+Licensed under The Apache Software License, Version 2.0
+
+Commons DBCP (http://commons.apache.org/dbcp/)
+Licensed under The Apache Software License, Version 2.0
+
+Digester (http://jakarta.apache.org/commons/digester/)
+Licensed under The Apache Software License, Version 2.0
+
+Commons Lang (http://commons.apache.org/lang/)
+Licensed under The Apache Software License, Version 2.0
+
+Commons Logging (http://commons.apache.org/logging)
+Licensed under The Apache Software License, Version 2.0
+
+Apache Commons Logging (http://commons.apache.org/proper/commons-logging/)
+Licensed under The Apache Software License, Version 2.0
+
+Commons Pool (http://commons.apache.org/pool/)
+Licensed under The Apache Software License, Version 2.0
+
+rxjava (https://github.com/ReactiveX/RxJava)
+Licensed under The Apache Software License, Version 2.0
+
+Java(TM) EE 7 Web Specification APIs (http://java.net/javaee-web-api/)
+Licensed under CDDL + GPLv2 with classpath exception
+
+JavaBeans Activation Framework (JAF) (http://java.sun.com/products/javabeans/jaf/index.jsp)
+Licensed under Common Development and Distribution License (CDDL) v1.0
+
+javax.annotation API (http://jcp.org/en/jsr/detail?id=250)
+Licensed under CDDL + GPLv2 with classpath exception
+
+JSR-250 Common Annotations for the JavaTM Platform (http://jcp.org/aboutJava/communityprocess/final/jsr250/index.html)
+Licensed under COMMON DEVELOPMENT AND DISTRIBUTION LICENSE (CDDL) Version 1.0
+
+javax.ejb API (http://ejb-spec.java.net)
+Licensed under CDDL + GPLv2 with classpath exception
+
+Expression Language API (2.1 Maintenance Release) (no url defined)
+Licensed under Unknown license
+
+Expression Language 3.0 API (http://uel-spec.java.net)
+Licensed under CDDL + GPLv2 with classpath exception
+
+CDI APIs (http://www.seamframework.org/Weld)
+Licensed under Apache License, Version 2.0
+
+javax.inject (http://code.google.com/p/atinject/)
+Licensed under The Apache Software License, Version 2.0
+
+JavaMail API jar (http://javamail.java.net/javax.mail-api)
+Licensed under CDDL/GPLv2+CE
+
+Java Servlet API (http://servlet-spec.java.net)
+Licensed under CDDL + GPLv2 with classpath exception
+
+servlet-api (no url defined)
+Licensed under Unknown license
+
+JavaServer Pages(TM) API (http://jsp.java.net)
+Licensed under CDDL + GPLv2 with classpath exception
+
+jsp-api (no url defined)
+Licensed under Unknown license
+
+JavaServer Pages(TM) Standard Tag Library (http://jcp.org/en/jsr/detail?id=52)
+Licensed under CDDL + GPLv2 with classpath exception
+
+javax.transaction API (http://jta-spec.java.net)
+Licensed under CDDL + GPLv2 with classpath exception
+
+Bean Validation API (http://beanvalidation.org)
+Licensed under The Apache Software License, Version 2.0
+
+WebSocket server API (http://websocket-spec.java.net)
+Licensed under Dual license consisting of the CDDL v1.1 and GPL v2
+
+javax.ws.rs-api (http://jax-rs-spec.java.net)
+Licensed under CDDL 1.1
+Licensed under GPL2 w/ CPE
+
+jaxb-api (https://github.com/javaee/jaxb-spec/jaxb-api)
+Licensed under CDDL 1.1
+Licensed under GPL2 w/ CPE
+
+javax.xml.soap API (http://saaj.java.net)
+Licensed under CDDL 1.1
+Licensed under GPL2 w/ CPE
+
+Joda-Time (http://www.joda.org/joda-time/)
+Licensed under Apache 2
+
+JUnit (http://junit.org)
+Licensed under Common Public License Version 1.0
+
+JUnit (http://junit.org)
+Licensed under Eclipse Public License 1.0
+
+Byte Buddy (without dependencies) (http://bytebuddy.net/byte-buddy)
+Licensed under The Apache Software License, Version 2.0
+
+Byte Buddy Java agent (http://bytebuddy.net/byte-buddy-agent)
+Licensed under The Apache Software License, Version 2.0
+
+ASM based accessors helper used by json-smart (http://www.minidev.net/)
+Licensed under The Apache Software License, Version 2.0
+
+JSON Small and Fast Parser (http://www.minidev.net/)
+Licensed under The Apache Software License, Version 2.0
+
+JOpt Simple (http://pholser.github.io/jopt-simple)
+Licensed under The MIT License
+
+java-support (http://shibboleth.net/java-support/)
+Licensed under The Apache Software License, Version 2.0
+
+Serp (http://serp.sourceforge.net)
+Licensed under BSD
+
+ANTLR 4 Runtime (http://www.antlr.org/antlr4-runtime)
+Licensed under The BSD License
+
+ActiveMQ :: Broker (http://activemq.apache.org/activemq-broker)
+Licensed under Apache License, Version 2.0
+
+ActiveMQ :: Client (http://activemq.apache.org/activemq-client)
+Licensed under Apache License, Version 2.0
+
+ActiveMQ :: JDBC Store (http://activemq.apache.org/activemq-jdbc-store)
+Licensed under Apache License, Version 2.0
+
+ActiveMQ :: KahaDB Store (http://activemq.apache.org/activemq-kahadb-store)
+Licensed under Apache License, Version 2.0
+
+ActiveMQ :: Openwire Legacy Support (http://activemq.apache.org/activemq-openwire-legacy)
+Licensed under Apache License, Version 2.0
+
+ActiveMQ :: RA (http://activemq.apache.org/activemq-ra)
+Licensed under Apache License, Version 2.0
+
+ActiveMQ Protocol Buffers Implementation and Compiler (http://activemq.apache.org/activemq-protobuf)
+Licensed under The Apache Software License, Version 2.0
+
+Apache BVal :: bval-core (http://bval.apache.org/bval-core/)
+Licensed under The Apache Software License, Version 2.0
+
+Apache BVal :: bval-core (http://bval.apache.org/bval-core/)
+Licensed under Apache License, Version 2.0
+
+Apache BVal :: bval-jsr (http://bval.apache.org/bval-jsr/)
+Licensed under Apache License, Version 2.0
+
+Apache BVal :: bval-jsr303 (http://bval.apache.org/bval-jsr303/)
+Licensed under The Apache Software License, Version 2.0
+
+OpenCMIS Client API (https://chemistry.apache.org/java/chemistry-opencmis-client/chemistry-opencmis-client-api/)
+Licensed under Apache 2
+
+OpenCMIS Commons API (https://chemistry.apache.org/java/chemistry-opencmis-commons/chemistry-opencmis-commons-api/)
+Licensed under Apache 2
+
+Apache Commons DBCP (http://commons.apache.org/dbcp/)
+Licensed under The Apache Software License, Version 2.0
+
+Apache Commons Lang (http://commons.apache.org/proper/commons-lang/)
+Licensed under The Apache Software License, Version 2.0
+
+Apache Commons Lang (http://commons.apache.org/proper/commons-lang/)
+Licensed under Apache License, Version 2.0
+
+Apache Commons Pool (http://commons.apache.org/proper/commons-pool/)
+Licensed under The Apache Software License, Version 2.0
+
+Apache CXF Core (http://cxf.apache.org)
+Licensed under The Apache Software License, Version 2.0
+
+Apache CXF CDI Integration (http://cxf.apache.org)
+Licensed under The Apache Software License, Version 2.0
+
+Apache CXF Runtime SOAP Binding (http://cxf.apache.org)
+Licensed under The Apache Software License, Version 2.0
+
+Apache CXF Runtime XML Binding (http://cxf.apache.org)
+Licensed under The Apache Software License, Version 2.0
+
+Apache CXF Runtime JAXB DataBinding (http://cxf.apache.org)
+Licensed under The Apache Software License, Version 2.0
+
+Apache CXF Runtime JAX-RS Frontend (http://cxf.apache.org)
+Licensed under The Apache Software License, Version 2.0
+
+Apache CXF Runtime JAX-WS Frontend (http://cxf.apache.org)
+Licensed under The Apache Software License, Version 2.0
+
+Apache CXF Runtime Simple Frontend (http://cxf.apache.org)
+Licensed under The Apache Software License, Version 2.0
+
+Apache CXF Runtime Management (http://cxf.apache.org)
+Licensed under The Apache Software License, Version 2.0
+
+Apache CXF JAX-RS Client (http://cxf.apache.org)
+Licensed under The Apache Software License, Version 2.0
+
+Apache CXF JAX-RS Extensions: Providers (http://cxf.apache.org)
+Licensed under The Apache Software License, Version 2.0
+
+Apache CXF JAX-RS Extensions: Search (http://cxf.apache.org)
+Licensed under The Apache Software License, Version 2.0
+
+Apache CXF JAX-RS Extensions: JSON Basic (http://cxf.apache.org)
+Licensed under The Apache Software License, Version 2.0
+
+Apache CXF RS Cross-Origin Resource Sharing (http://cxf.apache.org)
+Licensed under The Apache Software License, Version 2.0
+
+Apache CXF Runtime JOSE Core (http://cxf.apache.org)
+Licensed under The Apache Software License, Version 2.0
+
+Apache CXF Runtime JOSE JAX-RS (http://cxf.apache.org)
+Licensed under The Apache Software License, Version 2.0
+
+Apache CXF Runtime OAuth 2.0 (http://cxf.apache.org)
+Licensed under The Apache Software License, Version 2.0
+
+Apache CXF JAX-RS Service Description (http://cxf.apache.org)
+Licensed under The Apache Software License, Version 2.0
+
+Apache CXF Runtime Security functionality (http://cxf.apache.org)
+Licensed under The Apache Software License, Version 2.0
+
+Apache CXF Runtime SAML Security functionality (http://cxf.apache.org)
+Licensed under The Apache Software License, Version 2.0
+
+Apache CXF Runtime HTTP Transport (http://cxf.apache.org)
+Licensed under The Apache Software License, Version 2.0
+
+Apache CXF Runtime WS Addressing (http://cxf.apache.org)
+Licensed under The Apache Software License, Version 2.0
+
+Apache CXF Runtime WS Policy (http://cxf.apache.org)
+Licensed under The Apache Software License, Version 2.0
+
+Apache CXF Runtime WS Security (http://cxf.apache.org)
+Licensed under The Apache Software License, Version 2.0
+
+Apache CXF Runtime Core for WSDL (http://cxf.apache.org)
+Licensed under The Apache Software License, Version 2.0
+
+Apache DeltaSpike Core-API (http://deltaspike.apache.org/parent/parent-code/core-project/deltaspike-core-api)
+Licensed under Apache License, Version 2.0
+
+Apache DeltaSpike Core-Implementation (http://deltaspike.apache.org/parent/parent-code/core-project/deltaspike-core-impl)
+Licensed under Apache License, Version 2.0
+
+Apache DeltaSpike Data-Module API (http://deltaspike.apache.org/parent/parent-code/modules-project/data-module-project/deltaspike-data-module-api)
+Licensed under Apache License, Version 2.0
+
+Apache DeltaSpike Data-Module Impl (http://deltaspike.apache.org/parent/parent-code/modules-project/data-module-project/deltaspike-data-module-impl)
+Licensed under Apache License, Version 2.0
+
+Apache DeltaSpike JPA-Module API (http://deltaspike.apache.org/parent/parent-code/modules-project/jpa-module-project/deltaspike-jpa-module-api)
+Licensed under Apache License, Version 2.0
+
+Apache DeltaSpike JPA-Module Impl (http://deltaspike.apache.org/parent/parent-code/modules-project/jpa-module-project/deltaspike-jpa-module-impl)
+Licensed under Apache License, Version 2.0
+
+Apache DeltaSpike Partial-Bean-Module API (http://deltaspike.apache.org/parent/parent-code/modules-project/partial-bean-module-project/deltaspike-partial-bean-module-api)
+Licensed under Apache License, Version 2.0
+
+Apache DeltaSpike Partial-Bean-Module Impl (http://deltaspike.apache.org/parent/parent-code/modules-project/partial-bean-module-project/deltaspike-partial-bean-module-impl)
+Licensed under Apache License, Version 2.0
+
+Apache DeltaSpike Proxy-Module API (http://deltaspike.apache.org/parent/parent-code/modules-project/proxy-module-project/deltaspike-proxy-module-api)
+Licensed under Apache License, Version 2.0
+
+Apache DeltaSpike Proxy-Module Impl ASM5 (http://deltaspike.apache.org/parent/parent-code/modules-project/proxy-module-project/deltaspike-proxy-module-impl-asm5)
+Licensed under Apache License, Version 2.0
+
+Geronimo TxManager :: Connector (http://geronimo.apache.org/maven/components/geronimo-connector/3.1.4)
+Licensed under The Apache Software License, Version 2.0
+
+Geronimo TxManager :: Transaction (http://geronimo.apache.org/maven/components/geronimo-transaction/3.1.1)
+Licensed under The Apache Software License, Version 2.0
+
+Geronimo JavaMail 1.4 :: Mail (http://geronimo.apache.org/maven/javamail/geronimo-javamail_1.4_mail/1.9.0-alpha-2/geronimo-javamail_1.4_mail)
+Licensed under The Apache Software License, Version 2.0
+
+Apache Geronimo Annotation Spec 1.2 (http://geronimo.apache.org/maven/specs/geronimo-annotation_1.2_spec/1.0)
+Licensed under The Apache Software License, Version 2.0
+
+Apache Geronimo JSR-330 Spec API (http://geronimo.apache.org/maven/genesis/1.0)
+Licensed under The Apache Software License, Version 2.0
+
+Apache Geronimo JAX-RS Spec 2.0 (http://geronimo.apache.org/maven/specs/geronimo-jaxrs_2.0_spec/1.0-alpha-1)
+Licensed under The Apache Software License, Version 2.0
+
+Apache Geronimo JPA Spec 2.1 (http://geronimo.apache.org/maven/specs/geronimo-jpa_2.1_spec/1.0-alpha-1)
+Licensed under The Apache Software License, Version 2.0
+
+Apache Geronimo JSon Spec 1.0 (http://geronimo.apache.org/maven/specs/geronimo-json_1.0_spec/1.0-alpha-1)
+Licensed under The Apache Software License, Version 2.0
+
+Apache Geronimo JTA Spec 1.2 (http://geronimo.apache.org/maven/specs/geronimo-jta_1.2_spec/1.0-alpha-1)
+Licensed under The Apache Software License, Version 2.0
+
+Apache Geronimo Bean Validation Spec 1.1 (http://geronimo.apache.org/maven/specs/geronimo-validation_1.1_spec/1.0)
+Licensed under The Apache Software License, Version 2.0
+
+Apache HttpClient (http://hc.apache.org/httpcomponents-client)
+Licensed under Apache License, Version 2.0
+
+Apache HttpCore (http://hc.apache.org/httpcomponents-core-ga)
+Licensed under Apache License, Version 2.0
+
+Johnzon :: Core (http://johnzon.apache.org/johnzon-core)
+Licensed under The Apache Software License, Version 2.0
+
+Johnzon :: JAX-RS (http://johnzon.apache.org/johnzon-jaxrs)
+Licensed under The Apache Software License, Version 2.0
+
+Johnzon :: Mapper (http://johnzon.apache.org/johnzon-mapper)
+Licensed under The Apache Software License, Version 2.0
+
+Apache MyFaces JSF-2.2 Core API (http://myfaces.apache.org/core21/myfaces-api)
+Licensed under The Apache Software License, Version 2.0
+
+Apache MyFaces JSF-2.2 Core Impl (http://myfaces.apache.org/core22/myfaces-impl)
+Licensed under The Apache Software License, Version 2.0
+
+Apache Neethi (http://ws.apache.org/neethi/)
+Licensed under The Apache Software License, Version 2.0
+
+olingo-odata2-api (http://olingo.apache.org/olingo-odata2-lib/olingo-odata2-api)
+Licensed under The Apache Software License, Version 2.0
+
+olingo-odata2-api-annotation (http://olingo.apache.org/olingo-odata2-lib/olingo-odata2-api-annotation)
+Licensed under The Apache Software License, Version 2.0
+
+olingo-odata2-core (http://olingo.apache.org/olingo-odata2-lib/olingo-odata2-core)
+Licensed under The Apache Software License, Version 2.0
+
+olingo-odata2-jpa-processor-api (http://olingo.apache.org/olingo-odata2-jpa-processor/olingo-odata2-jpa-processor-api)
+Licensed under The Apache Software License, Version 2.0
+
+olingo-odata2-jpa-processor-core (http://olingo.apache.org/olingo-odata2-jpa-processor/olingo-odata2-jpa-processor-core)
+Licensed under The Apache Software License, Version 2.0
+
+OpenEJB :: JavaEE Full API (zip and jar files) (http://www.apache.org/javaee-api/)
+Licensed under The Apache Software License, Version 2.0
+
+OpenEJB :: Container :: MBean Annotation API (http://tomee.apache.org/container/mbean-annotation-api)
+Licensed under Apache License, Version 2.0
+
+OpenEJB :: Container :: API (http://tomee.apache.org/container/openejb-api)
+Licensed under Apache License, Version 2.0
+
+OpenEJB :: Server :: Client (http://tomee.apache.org/server/openejb-client)
+Licensed under Apache License, Version 2.0
+
+OpenEJB :: Container :: Core (http://tomee.apache.org/container/openejb-core)
+Licensed under Apache License, Version 2.0
+
+OpenEJB :: Server :: CXF RS (http://tomee.apache.org/server/openejb-cxf-rs)
+Licensed under Apache License, Version 2.0
+
+OpenEJB :: Server :: CXF Transport (http://tomee.apache.org/server/openejb-cxf-transport)
+Licensed under Apache License, Version 2.0
+
+OpenEJB :: Server :: EJBd (http://tomee.apache.org/server/openejb-ejbd)
+Licensed under Apache License, Version 2.0
+
+OpenEJB :: Server :: Http (http://tomee.apache.org/server/openejb-http)
+Licensed under Apache License, Version 2.0
+
+OpenEJB :: Container :: Java Agent (http://tomee.apache.org/container/openejb-javaagent)
+Licensed under Apache License, Version 2.0
+
+OpenEJB :: Container :: Java EE (http://tomee.apache.org/container/openejb-jee)
+Licensed under Apache License, Version 2.0
+
+OpenEJB :: Container :: Java EE Accessors (http://tomee.apache.org/container/openejb-jee-accessors)
+Licensed under Apache License, Version 2.0
+
+OpenEJB :: Container :: JPA Integration (http://tomee.apache.org/container/openejb-jpa-integration)
+Licensed under Apache License, Version 2.0
+
+OpenEJB :: Container :: Loader (http://tomee.apache.org/container/openejb-loader)
+Licensed under Apache License, Version 2.0
+
+OpenEJB :: Server :: REST (http://tomee.apache.org/server/openejb-rest)
+Licensed under Apache License, Version 2.0
+
+OpenEJB :: Server :: Core (http://tomee.apache.org/server/openejb-server)
+Licensed under Apache License, Version 2.0
+
+OpenEJB :: TomEE :: Catalina (http://tomee.apache.org/tomee/tomee-catalina)
+Licensed under Apache License, Version 2.0
+
+OpenEJB :: TomEE :: Common (http://tomee.apache.org/tomee/tomee-common)
+Licensed under Apache License, Version 2.0
+
+OpenEJB :: TomEE :: RS Web Services (http://tomee.apache.org/tomee/tomee-jaxrs)
+Licensed under Apache License, Version 2.0
+
+OpenEJB :: TomEE :: JDBC (http://tomee.apache.org/tomee/tomee-jdbc)
+Licensed under Apache License, Version 2.0
+
+OpenEJB :: TomEE :: Juli (http://tomee.apache.org/tomee/tomee-juli)
+Licensed under Apache License, Version 2.0
+
+OpenEJB :: TomEE :: Loader (http://tomee.apache.org/tomee/tomee-loader)
+Licensed under Apache License, Version 2.0
+
+OpenEJB :: Dependencies :: Quartz Shade (http://www.apache.org/quartz-openejb-shade/)
+Licensed under The Apache Software License, Version 2.0
+
+OpenJPA Aggregate Jar (http://openjpa.apache.org/openjpa)
+Licensed under Apache Software License 2.0
+
+Java EE plugin (openwebbeans.apache.org/openwebbeans-ee)
+Licensed under The Apache Software License, Version 2.0
+
+Java EE plugin (openwebbeans.apache.org/openwebbeans-ee)
+Licensed under Apache License, Version 2.0
+
+EE Common plugin (openwebbeans.apache.org/openwebbeans-ee-common)
+Licensed under The Apache Software License, Version 2.0
+
+EE Common plugin (openwebbeans.apache.org/openwebbeans-ee-common)
+Licensed under Apache License, Version 2.0
+
+EJB plugin (openwebbeans.apache.org/openwebbeans-ejb)
+Licensed under The Apache Software License, Version 2.0
+
+EJB plugin (openwebbeans.apache.org/openwebbeans-ejb)
+Licensed under Apache License, Version 2.0
+
+EL 2.2 plugin (openwebbeans.apache.org/openwebbeans-el22)
+Licensed under The Apache Software License, Version 2.0
+
+EL 2.2 plugin (openwebbeans.apache.org/openwebbeans-el22)
+Licensed under Apache License, Version 2.0
+
+OpenWebBeans Core (openwebbeans.apache.org/openwebbeans-impl)
+Licensed under The Apache Software License, Version 2.0
+
+OpenWebBeans Core (openwebbeans.apache.org/openwebbeans-impl)
+Licensed under Apache License, Version 2.0
+
+JSF-2 plugin (openwebbeans.apache.org/openwebbeans-jsf)
+Licensed under Apache License, Version 2.0
+
+SPI definition (openwebbeans.apache.org/openwebbeans-spi)
+Licensed under The Apache Software License, Version 2.0
+
+SPI definition (openwebbeans.apache.org/openwebbeans-spi)
+Licensed under Apache License, Version 2.0
+
+Web plugin (openwebbeans.apache.org/openwebbeans-web)
+Licensed under The Apache Software License, Version 2.0
+
+Web plugin (openwebbeans.apache.org/openwebbeans-web)
+Licensed under Apache License, Version 2.0
+
+Apache XML Security for Java (http://santuario.apache.org/)
+Licensed under The Apache Software License, Version 2.0
+
+Apache Standard Taglib Implementation (http://tomcat.apache.org/taglibs/standard-1.2.5/taglibs-standard-impl)
+Licensed under The Apache Software License, Version 2.0
+
+Apache Standard Taglib 1.0 EL Support (http://tomcat.apache.org/taglibs/standard-1.2.5/taglibs-standard-jstlel)
+Licensed under The Apache Software License, Version 2.0
+
+Apache Standard Taglib Specification API (http://tomcat.apache.org/taglibs/standard-1.2.5/taglibs-standard-spec)
+Licensed under The Apache Software License, Version 2.0
+
+tomcat-api (http://tomcat.apache.org/)
+Licensed under Apache License, Version 2.0
+
+tomcat-catalina (http://tomcat.apache.org/)
+Licensed under Apache License, Version 2.0
+
+tomcat-catalina-ha (http://tomcat.apache.org/)
+Licensed under Apache License, Version 2.0
+
+tomcat-coyote (http://tomcat.apache.org/)
+Licensed under Apache License, Version 2.0
+
+tomcat-dbcp (http://tomcat.apache.org/)
+Licensed under Apache License, Version 2.0
+
+tomcat-el-api (http://tomcat.apache.org/)
+Licensed under Apache License, Version 2.0
+
+tomcat-jasper (http://tomcat.apache.org/)
+Licensed under Apache License, Version 2.0
+
+tomcat-jasper-el (http://tomcat.apache.org/)
+Licensed under Apache License, Version 2.0
+
+tomcat-jaspic-api (http://tomcat.apache.org/)
+Licensed under Apache License, Version 2.0
+
+tomcat-jdbc (http://tomcat.apache.org/)
+Licensed under Apache License, Version 2.0
+
+tomcat-jni (http://tomcat.apache.org/)
+Licensed under Apache License, Version 2.0
+
+tomcat-jsp-api (http://tomcat.apache.org/)
+Licensed under Apache License, Version 2.0
+
+tomcat-juli (http://tomcat.apache.org/)
+Licensed under Apache License, Version 2.0
+
+tomcat-servlet-api (http://tomcat.apache.org/)
+Licensed under Apache License, Version 2.0 and
+        Common Development And Distribution License (CDDL) Version 1.0
+
+tomcat-tribes (http://tomcat.apache.org/)
+Licensed under Apache License, Version 2.0
+
+tomcat-util (http://tomcat.apache.org/)
+Licensed under Apache License, Version 2.0
+
+tomcat-util-scan (http://tomcat.apache.org/)
+Licensed under Apache License, Version 2.0
+
+tomcat-websocket (http://tomcat.apache.org/)
+Licensed under Apache License, Version 2.0
+
+tomcat-websocket-api (http://tomcat.apache.org/)
+Licensed under Apache License, Version 2.0
+
+TomEE :: JavaEE Full API (zip and jar files) (http://www.apache.org/javaee-api/)
+Licensed under Apache License, Version 2.0
+
+OpenEJB :: Server :: CXF (http://tomee.apache.org/server/openejb-cxf)
+Licensed under Apache License, Version 2.0
+
+OpenEJB :: Container :: JUnit (http://tomee.apache.org/container/openejb-junit)
+Licensed under Apache License, Version 2.0
+
+OpenEJB :: Server :: Webservices (http://tomee.apache.org/server/openejb-webservices)
+Licensed under Apache License, Version 2.0
+
+OpenEJB :: TomEE :: TomEE Embedded (http://tomee.apache.org/tomee/tomee-embedded)
+Licensed under Apache License, Version 2.0
+
+OpenEJB :: TomEE :: MyFaces (http://tomee.apache.org/tomee/tomee-myfaces)
+Licensed under Apache License, Version 2.0
+
+OpenEJB :: TomEE :: Util (http://tomee.apache.org/tomee/tomee-util)
+Licensed under Apache License, Version 2.0
+
+OpenEJB :: TomEE :: Web Services (http://tomee.apache.org/tomee/tomee-webservices)
+Licensed under Apache License, Version 2.0
+
+Apache CXF API (http://cxf.apache.org)
+Licensed under The Apache Software License, Version 2.0
+
+Apache CXF Runtime Core (http://cxf.apache.org)
+Licensed under The Apache Software License, Version 2.0
+
+Apache Velocity (http://velocity.apache.org/engine/releases/velocity-1.6.2/)
+Licensed under The Apache Software License, Version 2.0
+
+XmlSchema Core (http://ws.apache.org/commons/xmlschema20/xmlschema-core/)
+Licensed under The Apache Software License, Version 2.0
+
+Apache WSS4J WS-Security Bindings (http://ws.apache.org/wss4j/wss4j-bindings/)
+Licensed under The Apache Software License, Version 2.0
+
+Apache WSS4J WS-SecurityPolicy model (http://ws.apache.org/wss4j/wss4j-policy/)
+Licensed under The Apache Software License, Version 2.0
+
+Apache WSS4J WS-Security Common (http://ws.apache.org/wss4j/wss4j-ws-security-common/)
+Licensed under The Apache Software License, Version 2.0
+
+Apache WSS4J DOM WS-Security (http://ws.apache.org/wss4j/wss4j-ws-security-dom/)
+Licensed under The Apache Software License, Version 2.0
+
+Apache WSS4J Streaming WS-SecurityPolicy (http://ws.apache.org/wss4j/wss4j-ws-security-policy-stax/)
+Licensed under The Apache Software License, Version 2.0
+
+Apache WSS4J Streaming WS-Security (http://ws.apache.org/wss4j/wss4j-ws-security-stax/)
+Licensed under The Apache Software License, Version 2.0
+
+Apache XBean :: ASM 5 shaded (repackaged) (http://geronimo.apache.org/maven/xbean/4.2/xbean-asm5-shaded)
+Licensed under http://asm.ow2.org/license.html
+Licensed under http://www.apache.org/licenses/LICENSE-2.0.txt
+
+Apache XBean OSGI Bundle Utilities (http://geronimo.apache.org/maven/xbean/4.2/xbean-bundleutils)
+Licensed under The Apache Software License, Version 2.0
+
+Apache XBean :: Finder shaded (repackaged) (http://geronimo.apache.org/maven/xbean/4.2/xbean-finder-shaded)
+Licensed under The Apache Software License, Version 2.0
+
+Apache XBean :: Naming (http://geronimo.apache.org/maven/xbean/4.2/xbean-naming)
+Licensed under The Apache Software License, Version 2.0
+
+Apache XBean :: Reflect (http://geronimo.apache.org/maven/xbean/4.2/xbean-reflect)
+Licensed under The Apache Software License, Version 2.0
+
+AssertJ fluent assertions (http://assertj.org/assertj-core)
+Licensed under Apache License, Version 2.0
+
+Bouncy Castle Provider (http://www.bouncycastle.org/java.html)
+Licensed under Bouncy Castle Licence
+
+Checker Qual (http://checkerframework.org)
+Licensed under GNU General Public License, version 2 (GPL2), with the classpath exception
+Licensed under The MIT License
+
+Jettison (http://codehaus.org/jettison/)
+Licensed under Apache License, Version 2.0
+
+Animal Sniffer Annotations (http://mojo.codehaus.org/animal-sniffer/animal-sniffer-annotations)
+Licensed under MIT license
+
+Swizzle :: Stream (http://swizzle.codehaus.org/swizzle-stream)
+Licensed under The Apache Software License, Version 2.0
+
+Stax2 API (http://wiki.fasterxml.com/WoodstoxStax2)
+Licensed under The BSD License
+
+Woodstox (http://woodstox.codehaus.org)
+Licensed under The Apache Software License, Version 2.0
+
+Cryptacular Library (http://www.cryptacular.org)
+Licensed under Apache 2
+Licensed under GNU Lesser General Public License
+
+Eclipse Compiler for Java(TM) (http://www.eclipse.org/jdt)
+Licensed under Eclipse Public License
+
+Eclipse ECJ (http://www.eclipse.org/jdt/)
+Licensed under Eclipse Public License v1.0
+
+Jetty :: Continuation (http://www.eclipse.org/jetty)
+Licensed under Apache Software License - Version 2.0
+Licensed under Eclipse Public License - Version 1.0
+
+Jetty :: Http Utility (http://www.eclipse.org/jetty)
+Licensed under Apache Software License - Version 2.0
+Licensed under Eclipse Public License - Version 1.0
+
+Jetty :: IO Utility (http://www.eclipse.org/jetty)
+Licensed under Apache Software License - Version 2.0
+Licensed under Eclipse Public License - Version 1.0
+
+Jetty :: Security (http://www.eclipse.org/jetty)
+Licensed under Apache Software License - Version 2.0
+Licensed under Eclipse Public License - Version 1.0
+
+Jetty :: Server Core (http://www.eclipse.org/jetty)
+Licensed under Apache Software License - Version 2.0
+Licensed under Eclipse Public License - Version 1.0
+
+Jetty :: Servlet Handling (http://www.eclipse.org/jetty)
+Licensed under Apache Software License - Version 2.0
+Licensed under Eclipse Public License - Version 1.0
+
+Jetty :: Utility Servlets and Filters (http://www.eclipse.org/jetty)
+Licensed under Apache Software License - Version 2.0
+Licensed under Eclipse Public License - Version 1.0
+
+Jetty :: Utilities (http://www.eclipse.org/jetty)
+Licensed under Apache Software License - Version 2.0
+Licensed under Eclipse Public License - Version 1.0
+
+Jetty :: Webapp Application Support (http://www.eclipse.org/jetty)
+Licensed under Apache Software License - Version 2.0
+Licensed under Eclipse Public License - Version 1.0
+
+Jetty :: XML utilities (http://www.eclipse.org/jetty)
+Licensed under Apache Software License - Version 2.0
+Licensed under Eclipse Public License - Version 1.0
+
+SDO API (http://www.eclipse.org/eclipselink)
+Licensed under Eclipse Distribution License v. 1.0
+Licensed under Eclipse Public License v1.0
+
+EclipseLink (non-OSGi) (http://www.eclipse.org/eclipselink)
+Licensed under Eclipse Distribution License v. 1.0
+Licensed under Eclipse Public License v1.0
+
+Javax Persistence (http://www.eclipse.org/eclipselink)
+Licensed under Eclipse Distribution License v. 1.0
+Licensed under Eclipse Public License v1.0
+
+hawtbuf (http://hawtbuf.fusesource.org/hawtbuf)
+Licensed under The Apache Software License, Version 2.0
+
+jansi (http://fusesource.github.io/jansi/jansi)
+Licensed under The Apache Software License, Version 2.0
+
+JSR 353 (JSON Processing) Default Provider (http://jsonp.java.net)
+Licensed under Dual license consisting of the CDDL v1.1 and GPL v2
+
+Hamcrest All (https://github.com/hamcrest/JavaHamcrest/hamcrest-all)
+Licensed under New BSD License
+
+Hamcrest Core (https://github.com/hamcrest/JavaHamcrest/hamcrest-core)
+Licensed under New BSD License
+
+HdrHistogram (http://hdrhistogram.github.io/HdrHistogram/)
+Licensed under Public Domain, per Creative Commons CC0
+
+HyperSQL Database (http://hsqldb.org)
+Licensed under HSQLDB License, a BSD open source license
+
+JASYPT: Java Simplified Encryption (http://www.jasypt.org)
+Licensed under The Apache Software License, Version 2.0
+
+Interceptors 1.1 API (http://jboss-interceptors-api_1.1_spec/)
+Licensed under lgpl
+
+MIME streaming extension (http://mimepull.java.net)
+Licensed under CDDL 1.1
+Licensed under GPL2 w/ CPE
+
+Extended StAX API (http://stax-ex.java.net/)
+Licensed under Dual license consisting of the CDDL v1.1 and GPL v2
+
+SXC JAXB :: Core (http://nexus.sonatype.org/oss-repository-hosting.html/sxc/sxc-jaxb-core)
+Licensed under Unknown license
+
+SXC Runtime (http://nexus.sonatype.org/oss-repository-hosting.html/sxc/sxc-runtime)
+Licensed under Unknown license
+
+mockito-core (https://github.com/mockito/mockito)
+Licensed under The MIT License
+
+HOWL logger (http://forge.objectweb.org/projects/howl/)
+Licensed under BSD
+
+Objenesis (http://objenesis.org)
+Licensed under Apache 2
+
+OpenSAML :: Core (http://shibboleth.net/opensaml-core/)
+Licensed under The Apache Software License, Version 2.0
+
+OpenSAML :: Profile API (http://shibboleth.net/opensaml-profile-api/)
+Licensed under The Apache Software License, Version 2.0
+
+OpenSAML :: SAML Provider API (http://shibboleth.net/opensaml-saml-api/)
+Licensed under The Apache Software License, Version 2.0
+
+OpenSAML :: SAML Provider Implementations (http://shibboleth.net/opensaml-saml-impl/)
+Licensed under The Apache Software License, Version 2.0
+
+OpenSAML :: Security API (http://shibboleth.net/opensaml-security-api/)
+Licensed under The Apache Software License, Version 2.0
+
+OpenSAML :: Security Implementation (http://shibboleth.net/opensaml-security-impl/)
+Licensed under The Apache Software License, Version 2.0
+
+OpenSAML :: SOAP Provider API (http://shibboleth.net/opensaml-soap-api/)
+Licensed under The Apache Software License, Version 2.0
+
+OpenSAML :: XACML Provider API (http://shibboleth.net/opensaml-xacml-api/)
+Licensed under The Apache Software License, Version 2.0
+
+OpenSAML :: XACML Provider Implementations (http://shibboleth.net/opensaml-xacml-impl/)
+Licensed under The Apache Software License, Version 2.0
+
+OpenSAML :: SAML XACML Profile API (http://shibboleth.net/opensaml-xacml-saml-api/)
+Licensed under The Apache Software License, Version 2.0
+
+OpenSAML :: SAML XACML Profile Implementation (http://shibboleth.net/opensaml-xacml-saml-impl/)
+Licensed under The Apache Software License, Version 2.0
+
+OpenSAML :: XML Security API (http://shibboleth.net/opensaml-xmlsec-api/)
+Licensed under The Apache Software License, Version 2.0
+
+OpenSAML :: XML Security Implementation (http://shibboleth.net/opensaml-xmlsec-impl/)
+Licensed under The Apache Software License, Version 2.0
+
+ASM Core (http://asm.objectweb.org/asm/)
+Licensed under BSD
+
+Project Lombok (https://projectlombok.org)
+Licensed under The MIT License
+
+JSONassert (https://github.com/skyscreamer/JSONassert)
+Licensed under The Apache Software License, Version 2.0
+
+JCL 1.2 implemented over SLF4J (http://www.slf4j.org)
+Licensed under MIT License
+
+SLF4J API Module (http://www.slf4j.org)
+Licensed under MIT License
+
+SLF4J JDK14 Binding (http://www.slf4j.org)
+Licensed under MIT License
+
+org.xmlunit:xmlunit-core (http://www.xmlunit.org/)
+Licensed under The Apache Software License, Version 2.0
+
+org.xmlunit:xmlunit-legacy (http://www.xmlunit.org/)
+Licensed under The BSD 3-Clause License
+
+SnakeYAML (http://www.snakeyaml.org)
+Licensed under Apache License, Version 2.0
+
+oro (no url defined)
+Licensed under Unknown license
+
+StAX API (http://stax.codehaus.org/)
+Licensed under The Apache Software License, Version 2.0
+
+WSDL4J (http://sf.net/projects/wsdl4j)
+Licensed under CPL
+
+Xalan Java Serializer (http://xml.apache.org/xalan-j/)
+Licensed under The Apache Software License, Version 2.0
+
+Xalan Java (http://xml.apache.org/xalan-j/)
+Licensed under The Apache Software License, Version 2.0
+
+XML Commons External Components XML APIs (http://xml.apache.org/commons/components/external/)
+Licensed under The Apache Software License, Version 2.0
+
+XML Commons Resolver Component (http://xml.apache.org/commons/components/resolver/)
+Licensed under The Apache Software License, Version 2.0
+
