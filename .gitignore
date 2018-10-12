@@ -19,8 +19,6 @@ build/
 *.perspectivev3
 !default.perspectivev3
 
-ConfigurationProvider.plist
-
 xcuserdata/
 
 ## Other
