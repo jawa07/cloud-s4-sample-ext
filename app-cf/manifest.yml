@@ -38,7 +38,7 @@ applications:
   buildpack: nodejs_buildpack
   env:
     # TODO replace placeholders with the previously chosen routes
-    destinations: >
+    destinations:
       [
         {"name":"backend", "url" :"https://<backend-service-url>", "forwardAuthToken": true}, 
         {"name":"frontend", "url" :"https://<frontend-service-url>"}
